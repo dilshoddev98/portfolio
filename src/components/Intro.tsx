@@ -6,7 +6,7 @@ import {motion} from "framer-motion";
 import Link from "next/link";
 import {BsArrowRight, BsLinkedin} from "react-icons/bs";
 import {HiDownload} from "react-icons/hi";
-import {FaGithubSquare} from "react-icons/fa";
+import {IoIosCall} from "react-icons/io";
 import {useInViewCustom} from "@/hook/useInViewCustom";
 import {useActiveSectionContext} from "@/hook/useActiveSection";
 
@@ -100,7 +100,7 @@ const Intro = () => {
                 </a>
                 <div className={"flex gap-4"}>
                     <a
-                        href="https://linkedin.com"
+                        href="https://www.linkedin.com/in/dilshodbek-boymamatov-a5832b304/"
                         target="_blank"
                         className={
                             "bg-white px-7 py-3 text-gray-700 text-2xl flex items-center gap-2 rounded-full border border-black/10 outline-none hover:scale-110 focus:scale-110 active:scale-105 transition dark:bg-white/10 dark:text-white/60"
@@ -110,13 +110,12 @@ const Intro = () => {
                     </a>
 
                     <a
-                        href="https://github.com"
-                        target="_blank"
+                        href="tel:+998936131616"
                         className={
                             "bg-white px-7 py-3 text-gray-700 text-2xl flex items-center gap-2 rounded-full border border-black/10 outline-none hover:scale-110 focus:scale-110 active:scale-105 transition dark:bg-white/10 dark:text-white/60"
                         }
                     >
-                        <FaGithubSquare/>
+                        <IoIosCall/>
                     </a>
                 </div>
             </motion.div>
